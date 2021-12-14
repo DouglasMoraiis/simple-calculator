@@ -1,13 +1,17 @@
 import React from 'react';
 
+import { useStyles } from './Button.style'
+
 type ButtonProps = {
     children: string,
     onUpdate: (event: React.MouseEvent<HTMLButtonElement>) => void,
 }
 
 const Button = (props: ButtonProps) => { 
+    const styles = useStyles()
+
     return (
-        <button type="button" onClick={props.onUpdate}>
+        <button className={styles.button} type="button" onClick={props.onUpdate}>
             {props.children}
         </button>
     )

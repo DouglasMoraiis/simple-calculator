@@ -1,12 +1,13 @@
-import React from 'react';
+import { useStyles } from './Result.style'
 
-type Result = {
+type ResultProps = {
     value: number,
 }
 
-const Result = (props: Result) => { 
+const Result = (props: ResultProps) => { 
+    const styles = useStyles() 
     return (
-        <h1>{props.value}</h1>
+        <h1 className={styles.result}>{props.value}</h1>
     )
 }
 
