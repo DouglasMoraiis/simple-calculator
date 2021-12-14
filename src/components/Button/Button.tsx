@@ -4,7 +4,7 @@ import { useStyles } from './Button.style'
 
 type ButtonProps = {
     children: string,
-    onUpdate: (event: React.MouseEvent<HTMLButtonElement>) => void,
+    onUpdate: () => void,
 }
 
 const Button = (props: ButtonProps) => { 

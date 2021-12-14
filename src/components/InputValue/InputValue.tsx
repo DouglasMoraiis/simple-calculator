@@ -3,7 +3,6 @@ import React from 'react';
 
 type InputValueProps = {
     id: string,
-    value: number,
     onInputChange: ( event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
@@ -14,7 +13,6 @@ const InputValue = (props: InputValueProps) => {
             className={styles.textField}
             id={props.id}
             type="number"
-            value={props.value}
             onChange={props.onInputChange}
         />
     )
