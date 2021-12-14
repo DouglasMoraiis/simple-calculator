@@ -16,7 +16,7 @@ O projeto é bem simples, ele recebe dois números inteiros como entrada e retor
 ## 🎨 Layout
 
 <p align="center">
-    <img src=".public/images/banner.png" height="100%" width="85%" alt="Banner Sign In do Google" />
+    <img src=".github/banner.png" height="50%" width="60%" alt="Banner Sign In do Google" />
 </p>
 
 ## 🚀 Tecnologias
